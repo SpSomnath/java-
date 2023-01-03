@@ -1,0 +1,228 @@
+1. A java program to print Hello World
+2. A java program of if_else
+3. A java program of nested_if_else
+4. A java program of if_else_if
+5. A java program of swich_case
+6. A java program of user_input
+7. A java program of while_loop
+8. A java program of for_loop
+9. A java program of do_while_loop
+10. A java program of continue statement
+11. A java proram of using break statement 
+12. A java program of using bitwise_or operator
+13. A java program of using bitwise_and operator
+14. A java program of uing bitwise_xor operator
+
+1. //Print Hello World in java
+
+public class hello_world 
+{
+    public static void main(String arg[])
+    {
+        System.out.println("Hello World!");
+    }
+}
+
+2. // A program to implement if_else_if 
+class if_else_if{
+    public static void main(String arg[]){
+        int i = 10;
+        if(i % 3 == 0 ){
+            System.out.println("Result: "+(i));
+        }
+        else if(i % 6 == 0){
+            System.out.println("Result: "+(i));
+        }
+        else if(i % 5 == 0){
+            System.out.println("Result: "+(i));
+        }
+        else{
+            System.out.println("Not found");
+        }
+    }
+}
+
+3. // A program of using nested_if_else
+class nested_if_else{
+
+    public static void main(String arg[]){
+        int i = 2;
+        if(i % 2 == 0){
+            if(i % 1 == 0){
+                System.out.println("Done");
+            }
+            else{
+                System.out.println("Not Done");
+            }
+        }
+        else{
+            System.out.println("Invalid");
+        }
+    }
+}
+
+4. // A program to implement if_else_if 
+class if_else_if{
+    public static void main(String arg[]){
+        int i = 10;
+        if(i % 3 == 0 ){
+            System.out.println("Result: "+(i));
+        }
+        else if(i % 6 == 0){
+            System.out.println("Result: "+(i));
+        }
+        else if(i % 5 == 0){
+            System.out.println("Result: "+(i));
+        }
+        else{
+            System.out.println("Not found");
+        }
+    }
+}
+
+5. // A program to implement swich case
+class switch_case{
+    public static void main(String arg[]){
+        int ch = 3;
+        
+        switch(ch){
+            case 1:{
+                System.out.println("Sunday");
+                break;
+            }
+            case 2:{
+                System.out.println("Monday");
+                break;
+            }
+            case 3:{
+                System.out.println("Tuesday");
+                break;
+            }
+            case 4:{
+                System.out.println("Wednesday");
+                break;
+            }
+            default :{
+                System.out.println("Invalid choose");
+            }
+        }
+    }
+}
+
+6. // A program for ading two integer number through user input
+import java.util.Scanner;
+class user_input{
+    public static void main(String arg[]){
+        Scanner sc = new Scanner(System.in);
+
+        int x, y;
+        System.out.println("Program to add two number ");
+        System.out.println("Enter the 1st no.: ");
+        x = sc.nextInt();
+        System.out.println("Enter the 2nd no. : ");
+        y = sc.nextInt();
+        System.out.println("Result : " + (x + y));
+    }
+}
+
+7. class while_loop {
+    public static void main(String ag[]) {
+        int i = 0;
+
+    
+        while(i<10){
+            System.out.println("Result : "+ i);
+            i++;
+        }
+    }
+}
+
+8. // A program to impliment for loop 
+class for_loop {
+    public static void main(String arg[]){
+        for(int i = 0; i<10; i++){
+            System.out.println("Hello java ");
+        }
+    }
+}
+
+
+9. // A program to impliment do while loop
+class do_while_loop {
+    public static void main(String arg[]){
+        int i = 0, t = 0;
+
+        do{
+
+            System.out.println("Do while loop");
+            i++;
+        }
+        while(i<10);
+    }
+}
+
+10. // A program to implement Continue statement 
+class  continue_stmt {
+    public static void main(String arg[]){
+        for(int i = 2; i < 10; i++){
+            if(i%2 == 0){
+                continue;
+            }
+            System.out.println("Result :  " + i);
+        }
+
+    }
+}
+
+11. // A java program to implement break statement 
+class break_stmt{
+    public static void main(String arg[]){
+        for(int i = 2; i<10; i++){
+            if(i%3==0){
+                break;
+            }
+            else{
+                System.out.println("Result : " + i);
+            }
+        }
+    }
+}
+
+12. 
+//A java program to implement bitwise and operator
+class bitwise_and{
+    public static void main(String arg[]){
+        int x = 0, y = 0;
+        if(x++ == 1 & y++ == 1){
+            System.out.println("x "+ x + " y = "+ y);
+        }
+        else{
+            System.out.println("else part x = "+ x + " y = "+ y);
+        }
+    }
+}
+
+13. // A java program to implement bitwise or operator
+class bitwise_or{
+    public static void main(String arg[]){
+        int x = 0, y=0;
+        if(x++ == 1 | y++ == 1){
+            System.out.println("x " + x +" y "+y);
+        }else{
+            System.out.println("else part = x " + x + " y " + y);
+        }
+    }
+}
+
+14. // A java program to implement bitwise xor operator 
+class bitwise_xor{
+    public static void main(String arg[]){
+        int x=0, y = 0;
+        if(x++ == 1 ^ y++ ==1){
+            System.out.println("x " + x +" y = "+ y);
+        }
+        else{
+            System.out.println("else part x = "+x +" y = "+ y);
+        }
+    }
+}
